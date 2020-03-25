@@ -1,0 +1,22 @@
+{
+    "name": "HorribleSubs Downloader!",
+    "version": "1.0",
+    "description": "Allows you to copy the magnet links for an anime from its HorribleSubs page!",
+    "manifest_version": 2,
+	
+	"browser_action": {
+	   "default_icon": "magnet.png",
+	   "default_popup": "popup.html"
+	},
+	
+	"background": {
+      "scripts": [ "jquery.js", "background.js"],
+      "persistent": false
+    },
+	
+	"permissions": [
+      "activeTab", "clipboardWrite", "tabs"
+	  ]
+}
+
+	
